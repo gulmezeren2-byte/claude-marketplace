@@ -1,0 +1,31 @@
+{
+  "name": "gulmezeren",
+  "owner": {
+    "name": "Eren Gülmez",
+    "url": "https://github.com/gulmezeren2-byte"
+  },
+  "metadata": {
+    "description": "Agent-safety and industrial-engineering plugins for Claude Code.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "erp-report-engine",
+      "source": { "source": "github", "repo": "gulmezeren2-byte/erp-report-engine" },
+      "description": "A provably read-only SQL layer for AI agents over the database behind an ERP (Logo Tiger, Netsis, Mikro) - a guarded MCP server, safe-query skills, and zero-setup /trust-benchmark and /erp-schema commands.",
+      "version": "0.7.0",
+      "license": "MIT",
+      "category": "mcp",
+      "keywords": ["mcp", "sql", "read-only", "security", "erp", "ai-agents"]
+    },
+    {
+      "name": "industrial-engineering-ai-skills",
+      "source": { "source": "github", "repo": "gulmezeren2-byte/industrial-engineering-ai-skills" },
+      "description": "An operations-analysis method pack: OTIF audits, forecast-accuracy reviews, ABC-XYZ, safety-stock, Pareto and reporting contracts - with role agents and always-on data-hygiene rules.",
+      "version": "1.0.0",
+      "license": "MIT",
+      "category": "workflow",
+      "keywords": ["operations", "supply-chain", "kpi", "skills", "agents"]
+    }
+  ]
+}
